@@ -1,0 +1,138 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #EEF2F9;
+    font-family: "Poppins", sans-serif;
+}
+
+.cart{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 15px;
+    box-shadow: 0 20px 30px rgba(72, 61, 167, 0.1);
+    background-color: #FFFFFF;
+    width: 800px;
+    height: 600px;
+    padding: 4rem;
+}
+
+.image{
+    margin-bottom: 14rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    height: 100%;
+    width: 100%;
+}
+
+.content .tag{
+    color: #FFFFFF;
+    background-color: #191847;
+    font-size: 11px;
+    display: inline-block;
+    align-items: center;
+    padding: 0.1rem 0.4rem;
+    justify-content: start;
+    border-radius: 20px;
+    font-weight: 500;
+    margin-bottom: 3px;
+}
+
+.content .title{
+    margin-top: 6px;
+    color: #191847;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.prices{
+    margin-top: 24px;
+    color: #191847;
+}
+
+.discount{
+    text-decoration: line-through;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.price{
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 55px;
+}
+
+.available{
+    line-height: 40px;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.button{
+    margin-top: 23px;
+    padding: 12px 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    box-shadow: 0 5px 3px #1C57EE;
+    border-radius: 8px;
+    background-color: #4788E9;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.qtn{
+    margin-top: 23px;
+    border-radius: 8px;
+}
+
+.active{
+    width: 12px;
+    margin-right: 4px;
+}
+
+.quantity{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.buttons{
+    margin-top: 23px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.addBtn{
+    padding: 12px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+    color: #191847;
+}
+
+.addImg{
+    width: 30px;
+    margin-right: 8px;
+    color: #191847;
+}
